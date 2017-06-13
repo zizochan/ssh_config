@@ -5,3 +5,5 @@
 cp .ssh/config{.example,}
 sshLink.sh
 ```
+## uninstall
+removeSshLink.sh
