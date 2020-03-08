@@ -2,8 +2,9 @@
 
 ## Usage
 ```
-cp .ssh/config{.example,}
-sshLink.sh
+cp .ssh/{_config.example,config}
+touch .ssh/config.local
+./sshLink.sh
 ```
 ## uninstall
 removeSshLink.sh
